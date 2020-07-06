@@ -1,6 +1,6 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
   <%= link_to "#", class: "navbar-brand" do %>
-    <%= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
+    <%= image_tag "https://res.cloudinary.com/asfxgf/image/upload/v1594058805/Saveurs%20et%20mill%C3%A9simes/logo_vi6ohi.png" %>
     <% end %>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,6 +10,22 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <%= link_to "A propos", "#", class: "nav-link" %>
+      </li>
+      <li class="nav-item active">
+        <%= link_to "Services", "#", class: "nav-link" %>
+      </li>
+      <li class="nav-item active">
+        <%= link_to "Produits", "#", class: "nav-link" %>
+      </li>
+      <li class="nav-item active">
+        <%= link_to "Avis", "#", class: "nav-link" %>
+      </li>
+      <li class="nav-item active">
+        <%= link_to "Affaires", "#", class: "nav-link" %>
+      </li>
+      <!--
       <% if user_signed_in? %>
         <li class="nav-item active">
           <%= link_to "Home", "#", class: "nav-link" %>
@@ -30,6 +46,7 @@
           <%= link_to "Login", new_user_session_path, class: "nav-link" %>
         </li>
       <% end %>
+    -->
     </ul>
   </div>
 </div>
