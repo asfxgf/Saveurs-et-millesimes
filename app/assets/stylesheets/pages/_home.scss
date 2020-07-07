@@ -24,14 +24,36 @@ h4 {
   text-align: center;
 }
 
+p {
+  opacity: 1;
+}
 
 
 
 .centered {
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+
+.infos-black {
+  color: black;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.infos-white {
+  color: white;
+  font-weight: bold;
+  opacity: 1;
 }
 
 // Home slider css
@@ -44,27 +66,18 @@ h4 {
   opacity: 0.6;
 }
 
-.slide{
+.slide1{
   position: absolute;
   left: 0px;
   top: 0px;
   width: 100%;
-  height: 80%;
+  height: 95%;
   opacity: 0;
   z-index: 1;
   -webkit-transition: opacity 1s;
   -moz-transition: opacity 1s;
   -o-transition: opacity 1s;
   transition: opacity 1s;
-}
-
-.active{
-  opacity: 1;
-  z-index: 2;
-}
-
-.slide{
-  font-size: 40px;
   padding: 40px;
   box-sizing: border-box;
   background: #333;
@@ -72,16 +85,21 @@ h4 {
   background-size: cover;
 }
 
-.slide:nth-of-type(1){
+.active{
+  opacity: 1;
+  z-index: 2;
+}
+
+.slide1:nth-of-type(1){
   background-image: url('https://res.cloudinary.com/asfxgf/image/upload/v1594113144/Saveurs%20et%20mill%C3%A9simes/photo_magasin_kyvrae.jpg');
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  color: white;
+  color: black;
 
 }
 
-.slide:nth-of-type(2){
+.slide1:nth-of-type(2){
   background-image: url('https://res.cloudinary.com/asfxgf/image/upload/v1594113145/Saveurs%20et%20mill%C3%A9simes/presentoir_yvggac.jpg');
   background-size: cover;
   background-position: 50% 50%;
@@ -89,7 +107,7 @@ h4 {
   color: black;
 }
 
-.slide:nth-of-type(3){
+.slide1:nth-of-type(3){
   background-image: url('https://res.cloudinary.com/asfxgf/image/upload/v1594113147/Saveurs%20et%20mill%C3%A9simes/presentoir-2_rngbgv.jpg');
   background-size: cover;
   background-position: 50% 50%;

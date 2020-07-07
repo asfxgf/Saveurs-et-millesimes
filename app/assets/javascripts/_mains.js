@@ -10,7 +10,7 @@
 const controls = document.querySelectorAll('.controls');
 
 
-let slides = document.querySelectorAll('#all_slides .slide');
+let slides = document.querySelectorAll('#all_slides .slide1');
 let currentSlide = 0;
 
 const nextSlide = () => {
@@ -34,7 +34,7 @@ const goToSlide = (s) => {
    when this function is run, hide all slides
    since the slide class has opacity set to 0.
   */
-    slides[currentSlide].className = 'slide';
+    slides[currentSlide].className = 'slide1';
 
      /* assuming we have 4 different slides
         we can index these slides as follows:
@@ -72,7 +72,7 @@ const goToSlide = (s) => {
      */
     currentSlide = (s + slides.length) % slides.length;
     // in active we set opacity to 1.
-    slides[currentSlide].className = 'slide active';
+    slides[currentSlide].className = 'slide1 active';
 }
 
 
