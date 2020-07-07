@@ -47,7 +47,6 @@ gem 'simple_form'
 gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 # ajout 7 juillet
 gem 'mail_form'
-
 group :development, :test do  gem 'pry-byebug'
   gem 'pry-rails'
   gem 'dotenv-rails'
