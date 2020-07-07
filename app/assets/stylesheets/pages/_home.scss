@@ -1,6 +1,9 @@
 h1 {
   text-align: center;
   font-size: 48px;
+  opacity: 1;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-weight: bold;
 }
 
 h2 {
@@ -8,6 +11,9 @@ h2 {
   font-size: 38px;
   padding-bottom: 20px;
   padding-top: 20px;
+  opacity: 1;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-weight: bold;
 }
 
 h3 {
@@ -19,6 +25,15 @@ h4 {
 }
 
 
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 // Home slider css
 #all_slides{
   position: relative;
@@ -26,7 +41,7 @@ h4 {
   padding: 0px;
   margin: 0px;
   list-style-type: none;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .slide{
@@ -62,20 +77,24 @@ h4 {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  color: white;
+
 }
 
 .slide:nth-of-type(2){
   background-image: url('https://res.cloudinary.com/asfxgf/image/upload/v1594113145/Saveurs%20et%20mill%C3%A9simes/presentoir_yvggac.jpg');
   background-size: cover;
   background-position: 50% 50%;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
+  color: black;
 }
 
 .slide:nth-of-type(3){
   background-image: url('https://res.cloudinary.com/asfxgf/image/upload/v1594113147/Saveurs%20et%20mill%C3%A9simes/presentoir-2_rngbgv.jpg');
   background-size: cover;
   background-position: 50% 50%;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
+  color: white;
 }
 // css rules for control
 
