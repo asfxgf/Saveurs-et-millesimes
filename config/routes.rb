@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'home/index'
   devise_for :users
   resources :home, only: [:index, :new, :create]
   root to: 'pages#home'
