@@ -1,5 +1,4 @@
 # app/models/home.rb
-
 class Home < MailForm::Base
   attribute :name, :validate => true
   attribute :email, :validate => /\A([\w\.%\+\-]+)@([\w\-]+\.)+([\w]{2,})\z/i
@@ -10,7 +9,7 @@ class Home < MailForm::Base
   # in ActionMailer accepts.
   def headers
     {
-      :subject => "Contact Form : saveurs-et-millesimes",
+      :subject => "Contact Form : Saveurs-et-millesimes",
       :to => "2leglise.quentin@gmail.com",
       :from => %("#{name}" <#{email}>)
     }
