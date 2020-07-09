@@ -2,6 +2,10 @@
   justify-content: space-between;
 }
 
+.navbar-lewagon li {
+}
+
+
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }
@@ -20,7 +24,7 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .navbar-lewagon .navbar-brand img {
-  width: 40px;
+  width: 60px;
   }
 }
 
