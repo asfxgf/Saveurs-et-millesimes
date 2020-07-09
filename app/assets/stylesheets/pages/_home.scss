@@ -60,6 +60,81 @@ p {
   opacity: 1;
 }
 
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .superlink  {
+  font-size: 16px;
+  a {
+    color: red;
+    text-decoration: underline;
+
+    &:hover {
+      color: blue;
+    }
+  }
+}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .superlink  {
+  font-size: 20px;
+  a {
+    color: red;
+    text-decoration: underline;
+
+    &:hover {
+      color: blue;
+    }
+  }
+}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .superlink  {
+  font-size: 24px;
+  a {
+    color: red;
+    text-decoration: underline;
+
+    &:hover {
+      color: blue;
+    }
+  }
+}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .superlink  {
+  font-size: 32px;
+  a {
+    color: red;
+    text-decoration: underline;
+
+    &:hover {
+      color: blue;
+    }
+  }
+}
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .superlink  {
+  font-size: 32px;
+  a {
+    color: red;
+    text-decoration: underline;
+
+    &:hover {
+      color: blue;
+    }
+  }
+}
+}
 // Home slider css
 #all_slides{
   position: relative;

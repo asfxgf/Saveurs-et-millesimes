@@ -5,9 +5,11 @@
         <%= f.label :email, 'Entrez votre email :' %><br>
         <%= f.text_field :email, required: true, class: "contact-form-text-area" %></br>
         <br>
+    </div>
+    <div class="col-">
       <%= f.text_area :message, rows: 8, cols: 40, required: true, class: "contact-form-text-area",
                         placeholder: "Ecrivez votre message ici."%></br>
-
+    </div>
       <div class= "hidden">
         <%= f.label :nickname %>
         <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
