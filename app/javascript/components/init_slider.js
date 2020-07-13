@@ -1,6 +1,6 @@
 const initSlider = () => {
 
-// Home carousel 1 du top
+// Home Slide 1 du top
   let slides = document.querySelectorAll('#all_slides .slide1');
 
   if (slides) {
